@@ -1,0 +1,25 @@
+<suite name="Suite">
+	<listeners>
+		<listener class-name="extentReport.TestListener"></listener>
+	</listeners>
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testClasses.ManageUserTestClass" />
+			<class name="testClasses.ManageProductTestClass" />
+			<class name="testClasses.HomePageTestClass" />
+			<class name="testClasses.LoginPageTestClass" />
+		</classes>
+	</test> 
+
+	<test name="EdgeTest">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="testClasses.ManageUserTestClass" />
+			<class name="testClasses.ManageProductTestClass" />
+			<class name="testClasses.HomePageTestClass" />
+			<class name="testClasses.LoginPageTestClass" />
+		</classes>
+	</test> 
+
+</suite> 

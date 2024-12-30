@@ -1,0 +1,15 @@
+<suite thread-count="2" parallel="classes" name="Suite" verbose="2">
+	<listeners>
+		<listener class-name="extentReport.TestListener"></listener>
+	</listeners>
+	<parameter name="browser" value="chrome"></parameter>
+	<test thread-count="2" parallel="classes" name="Test">
+		<classes>
+			<class name="testClasses.ManageUserTestClass" />
+			<class name="testClasses.ManageProductTestClass" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

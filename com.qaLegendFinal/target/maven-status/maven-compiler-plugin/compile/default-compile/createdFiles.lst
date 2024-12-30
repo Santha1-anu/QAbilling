@@ -1,0 +1,12 @@
+pageClasses\LoginPageClass.class
+utility\FileUploadUtility.class
+utility\ScreenShotClass.class
+utility\Constants.class
+pageClasses\HomePageClass.class
+pageClasses\ManageUserPageClass.class
+utility\ExcelReadClass.class
+utility\GeneralUtilities.class
+pageClasses\ManageProductPageClass.class
+utility\RandomDataUtility.class
+utility\ExplicitWaitClass.class
+utility\FluentWaitClass.class

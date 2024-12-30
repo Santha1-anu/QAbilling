@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-28T21:28:00 IST" name="Suite" finished-at="2024-12-28T21:39:18 IST" duration-ms="678237">
+    <groups>
+      <group name="Group1">
+        <method signature="LoginPageTestClass.verifyTheExactURL_OpensWhileHittingTheBaseURL()[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" name="verifyTheExactURL_OpensWhileHittingTheBaseURL" class="testClasses.LoginPageTestClass"/>
+        <method signature="HomePageTestClass.verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@6f53b8a]" name="verifySuccessfulSignOut" class="testClasses.HomePageTestClass"/>
+        <method signature="ManageProductTestClass.verifyToCreateA_newProduct()[pri:1, instance:testClasses.ManageProductTestClass@4d1bf319]" name="verifyToCreateA_newProduct" class="testClasses.ManageProductTestClass"/>
+        <method signature="ManageUserTestClass.verifyToAdd_aNewUser()[pri:1, instance:testClasses.ManageUserTestClass@4bdeaabb]" name="verifyToAdd_aNewUser" class="testClasses.ManageUserTestClass"/>
+        <method signature="ManageProductTestClass.verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@4d1bf319]" name="verifyToDeleteAddedProduct" class="testClasses.ManageProductTestClass"/>
+        <method signature="LoginPageTestClass.verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@5c80cf32]" name="verifyUnsuccessfulLoginOfTheSite" class="testClasses.LoginPageTestClass"/>
+        <method signature="LoginPageTestClass.verifySuccessfullLogin()[pri:4, instance:testClasses.LoginPageTestClass@5c80cf32]" name="verifySuccessfullLogin" class="testClasses.LoginPageTestClass"/>
+        <method signature="LoginPageTestClass.verifyTheExactURL_OpensWhileHittingTheBaseURL()[pri:0, instance:testClasses.LoginPageTestClass@821330f]" name="verifyTheExactURL_OpensWhileHittingTheBaseURL" class="testClasses.LoginPageTestClass"/>
+        <method signature="HomePageTestClass.verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@1b1cfb87]" name="verifySuccessfulSignOut" class="testClasses.HomePageTestClass"/>
+        <method signature="ManageProductTestClass.verifyToCreateA_newProduct()[pri:1, instance:testClasses.ManageProductTestClass@34bde49d]" name="verifyToCreateA_newProduct" class="testClasses.ManageProductTestClass"/>
+        <method signature="ManageUserTestClass.verifyToAdd_aNewUser()[pri:1, instance:testClasses.ManageUserTestClass@23f5b5dc]" name="verifyToAdd_aNewUser" class="testClasses.ManageUserTestClass"/>
+        <method signature="ManageProductTestClass.verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@34bde49d]" name="verifyToDeleteAddedProduct" class="testClasses.ManageProductTestClass"/>
+        <method signature="LoginPageTestClass.verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@821330f]" name="verifyUnsuccessfulLoginOfTheSite" class="testClasses.LoginPageTestClass"/>
+        <method signature="LoginPageTestClass.verifySuccessfullLogin()[pri:4, instance:testClasses.LoginPageTestClass@821330f]" name="verifySuccessfullLogin" class="testClasses.LoginPageTestClass"/>
+      </group> <!-- Group1 -->
+      <group name="Group2">
+        <method signature="HomePageTestClass.verifyAllTilesDisplayedOnHomePage()[pri:0, instance:testClasses.HomePageTestClass@6f53b8a]" name="verifyAllTilesDisplayedOnHomePage" class="testClasses.HomePageTestClass"/>
+        <method signature="ManageProductTestClass.verifyProductsPageIsOpenWhileClickingOnListProducts()[pri:0, instance:testClasses.ManageProductTestClass@4d1bf319]" name="verifyProductsPageIsOpenWhileClickingOnListProducts" class="testClasses.ManageProductTestClass"/>
+        <method signature="ManageUserTestClass.verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUserTestClass@4bdeaabb]" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" class="testClasses.ManageUserTestClass"/>
+        <method signature="LoginPageTestClass.verifyTheRememberMeCheckboxIsSelectedByDefault()[pri:1, instance:testClasses.LoginPageTestClass@5c80cf32]" name="verifyTheRememberMeCheckboxIsSelectedByDefault" class="testClasses.LoginPageTestClass"/>
+        <method signature="HomePageTestClass.verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator()[pri:2, instance:testClasses.HomePageTestClass@6f53b8a]" name="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator" class="testClasses.HomePageTestClass"/>
+        <method signature="LoginPageTestClass.verifyResetPasswordPageComingWhileChickingOnForgotYourPassword()[pri:2, instance:testClasses.LoginPageTestClass@5c80cf32]" name="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword" class="testClasses.LoginPageTestClass"/>
+        <method signature="HomePageTestClass.verifyAllTilesDisplayedOnHomePage()[pri:0, instance:testClasses.HomePageTestClass@1b1cfb87]" name="verifyAllTilesDisplayedOnHomePage" class="testClasses.HomePageTestClass"/>
+        <method signature="ManageProductTestClass.verifyProductsPageIsOpenWhileClickingOnListProducts()[pri:0, instance:testClasses.ManageProductTestClass@34bde49d]" name="verifyProductsPageIsOpenWhileClickingOnListProducts" class="testClasses.ManageProductTestClass"/>
+        <method signature="ManageUserTestClass.verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUserTestClass@23f5b5dc]" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" class="testClasses.ManageUserTestClass"/>
+        <method signature="LoginPageTestClass.verifyTheRememberMeCheckboxIsSelectedByDefault()[pri:1, instance:testClasses.LoginPageTestClass@821330f]" name="verifyTheRememberMeCheckboxIsSelectedByDefault" class="testClasses.LoginPageTestClass"/>
+        <method signature="HomePageTestClass.verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator()[pri:2, instance:testClasses.HomePageTestClass@1b1cfb87]" name="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator" class="testClasses.HomePageTestClass"/>
+        <method signature="LoginPageTestClass.verifyResetPasswordPageComingWhileChickingOnForgotYourPassword()[pri:2, instance:testClasses.LoginPageTestClass@821330f]" name="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword" class="testClasses.LoginPageTestClass"/>
+      </group> <!-- Group2 -->
+    </groups>
+    <test started-at="2024-12-28T21:28:00 IST" name="chromeTest" finished-at="2024-12-28T21:33:27 IST" duration-ms="327395">
+      <class name="testClasses.ManageUserTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageUserTestClass@4bdeaabb]" started-at="2024-12-28T21:28:00 IST" name="beforeMethod" finished-at="2024-12-28T21:28:07 IST" duration-ms="7829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUserTestClass@4bdeaabb]" started-at="2024-12-28T21:28:07 IST" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" finished-at="2024-12-28T21:28:16 IST" duration-ms="8409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheManageUsersPageIsOpenWhileClickingOnUsers -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUserTestClass@4bdeaabb]" started-at="2024-12-28T21:28:16 IST" name="afterMethod" finished-at="2024-12-28T21:28:24 IST" duration-ms="7985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageUserTestClass@4bdeaabb]" started-at="2024-12-28T21:28:24 IST" name="beforeMethod" finished-at="2024-12-28T21:28:33 IST" duration-ms="9188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToAdd_aNewUser()[pri:1, instance:testClasses.ManageUserTestClass@4bdeaabb]" started-at="2024-12-28T21:28:33 IST" name="verifyToAdd_aNewUser" finished-at="2024-12-28T21:28:45 IST" duration-ms="11649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToAdd_aNewUser -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUserTestClass@4bdeaabb]" started-at="2024-12-28T21:28:45 IST" name="afterMethod" finished-at="2024-12-28T21:28:53 IST" duration-ms="8129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.ManageUserTestClass -->
+      <class name="testClasses.HomePageTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@6f53b8a]" started-at="2024-12-28T21:30:25 IST" name="beforeMethod" finished-at="2024-12-28T21:30:36 IST" duration-ms="11478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAllTilesDisplayedOnHomePage()[pri:0, instance:testClasses.HomePageTestClass@6f53b8a]" started-at="2024-12-28T21:30:36 IST" name="verifyAllTilesDisplayedOnHomePage" finished-at="2024-12-28T21:30:39 IST" duration-ms="2792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllTilesDisplayedOnHomePage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@6f53b8a]" started-at="2024-12-28T21:30:39 IST" name="afterMethod" finished-at="2024-12-28T21:30:46 IST" duration-ms="7131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@6f53b8a]" started-at="2024-12-28T21:30:46 IST" name="beforeMethod" finished-at="2024-12-28T21:30:54 IST" duration-ms="8285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@6f53b8a]" started-at="2024-12-28T21:30:54 IST" name="verifySuccessfulSignOut" finished-at="2024-12-28T21:30:58 IST" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulSignOut -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@6f53b8a]" started-at="2024-12-28T21:30:58 IST" name="afterMethod" finished-at="2024-12-28T21:31:05 IST" duration-ms="7234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@6f53b8a]" started-at="2024-12-28T21:31:05 IST" name="beforeMethod" finished-at="2024-12-28T21:31:13 IST" duration-ms="8310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator()[pri:2, instance:testClasses.HomePageTestClass@6f53b8a]" started-at="2024-12-28T21:31:13 IST" name="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator" finished-at="2024-12-28T21:31:17 IST" duration-ms="3220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@6f53b8a]" started-at="2024-12-28T21:31:17 IST" name="afterMethod" finished-at="2024-12-28T21:31:24 IST" duration-ms="7149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.HomePageTestClass -->
+      <class name="testClasses.LoginPageTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:31:24 IST" name="beforeMethod" finished-at="2024-12-28T21:31:33 IST" duration-ms="8786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheExactURL_OpensWhileHittingTheBaseURL()[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:31:33 IST" name="verifyTheExactURL_OpensWhileHittingTheBaseURL" finished-at="2024-12-28T21:31:33 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheExactURL_OpensWhileHittingTheBaseURL -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:31:33 IST" name="afterMethod" finished-at="2024-12-28T21:31:40 IST" duration-ms="7127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:31:40 IST" name="beforeMethod" finished-at="2024-12-28T21:31:48 IST" duration-ms="7820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheRememberMeCheckboxIsSelectedByDefault()[pri:1, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:31:48 IST" name="verifyTheRememberMeCheckboxIsSelectedByDefault" finished-at="2024-12-28T21:31:48 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheRememberMeCheckboxIsSelectedByDefault -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:31:48 IST" name="afterMethod" finished-at="2024-12-28T21:31:55 IST" duration-ms="7157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:31:55 IST" name="beforeMethod" finished-at="2024-12-28T21:32:05 IST" duration-ms="10176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword()[pri:2, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:32:05 IST" name="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword" finished-at="2024-12-28T21:32:06 IST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetPasswordPageComingWhileChickingOnForgotYourPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:32:06 IST" name="afterMethod" finished-at="2024-12-28T21:32:13 IST" duration-ms="7153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:32:13 IST" name="beforeMethod" finished-at="2024-12-28T21:32:20 IST" duration-ms="7390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:32:20 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-28T21:32:21 IST" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:32:21 IST" name="afterMethod" finished-at="2024-12-28T21:32:30 IST" duration-ms="8211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:32:30 IST" name="beforeMethod" finished-at="2024-12-28T21:32:46 IST" duration-ms="15943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:32:46 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-28T21:32:47 IST" duration-ms="1059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:32:47 IST" name="afterMethod" finished-at="2024-12-28T21:32:54 IST" duration-ms="7168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:32:54 IST" name="beforeMethod" finished-at="2024-12-28T21:33:01 IST" duration-ms="7484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:33:01 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-28T21:33:02 IST" duration-ms="1046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:33:02 IST" name="afterMethod" finished-at="2024-12-28T21:33:10 IST" duration-ms="7168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:33:10 IST" name="beforeMethod" finished-at="2024-12-28T21:33:17 IST" duration-ms="7393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySuccessfullLogin()[pri:4, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:33:17 IST" name="verifySuccessfullLogin" finished-at="2024-12-28T21:33:20 IST" duration-ms="2808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@5c80cf32]" started-at="2024-12-28T21:33:20 IST" name="afterMethod" finished-at="2024-12-28T21:33:27 IST" duration-ms="7176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.LoginPageTestClass -->
+      <class name="testClasses.ManageProductTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@4d1bf319]" started-at="2024-12-28T21:28:53 IST" name="beforeMethod" finished-at="2024-12-28T21:29:00 IST" duration-ms="7429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyProductsPageIsOpenWhileClickingOnListProducts()[pri:0, instance:testClasses.ManageProductTestClass@4d1bf319]" started-at="2024-12-28T21:29:00 IST" name="verifyProductsPageIsOpenWhileClickingOnListProducts" finished-at="2024-12-28T21:29:05 IST" duration-ms="4944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsPageIsOpenWhileClickingOnListProducts -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@4d1bf319]" started-at="2024-12-28T21:29:05 IST" name="afterMethod" finished-at="2024-12-28T21:29:12 IST" duration-ms="7206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@4d1bf319]" started-at="2024-12-28T21:29:12 IST" name="beforeMethod" finished-at="2024-12-28T21:29:20 IST" duration-ms="7984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToCreateA_newProduct()[pri:1, instance:testClasses.ManageProductTestClass@4d1bf319]" started-at="2024-12-28T21:29:20 IST" name="verifyToCreateA_newProduct" finished-at="2024-12-28T21:29:44 IST" duration-ms="24086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToCreateA_newProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@4d1bf319]" started-at="2024-12-28T21:29:44 IST" name="afterMethod" finished-at="2024-12-28T21:29:53 IST" duration-ms="8108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@4d1bf319]" started-at="2024-12-28T21:29:53 IST" name="beforeMethod" finished-at="2024-12-28T21:30:04 IST" duration-ms="11702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@4d1bf319]" started-at="2024-12-28T21:30:04 IST" name="verifyToDeleteAddedProduct" finished-at="2024-12-28T21:30:16 IST" duration-ms="12136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToDeleteAddedProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@4d1bf319]" started-at="2024-12-28T21:30:16 IST" name="afterMethod" finished-at="2024-12-28T21:30:25 IST" duration-ms="8226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.ManageProductTestClass -->
+    </test> <!-- chromeTest -->
+    <test started-at="2024-12-28T21:33:27 IST" name="edgeTest" finished-at="2024-12-28T21:39:18 IST" duration-ms="350791">
+      <class name="testClasses.ManageUserTestClass">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:testClasses.ManageUserTestClass@23f5b5dc]" started-at="2024-12-28T21:27:59 IST" name="createReport" finished-at="2024-12-28T21:28:00 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageUserTestClass@23f5b5dc]" started-at="2024-12-28T21:33:27 IST" name="beforeMethod" finished-at="2024-12-28T21:33:35 IST" duration-ms="7922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUserTestClass@23f5b5dc]" started-at="2024-12-28T21:33:35 IST" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" finished-at="2024-12-28T21:33:39 IST" duration-ms="4432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheManageUsersPageIsOpenWhileClickingOnUsers -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUserTestClass@23f5b5dc]" started-at="2024-12-28T21:33:39 IST" name="afterMethod" finished-at="2024-12-28T21:33:47 IST" duration-ms="7216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageUserTestClass@23f5b5dc]" started-at="2024-12-28T21:33:47 IST" name="beforeMethod" finished-at="2024-12-28T21:33:55 IST" duration-ms="7977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToAdd_aNewUser()[pri:1, instance:testClasses.ManageUserTestClass@23f5b5dc]" started-at="2024-12-28T21:33:55 IST" name="verifyToAdd_aNewUser" finished-at="2024-12-28T21:34:05 IST" duration-ms="10688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToAdd_aNewUser -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUserTestClass@23f5b5dc]" started-at="2024-12-28T21:34:05 IST" name="afterMethod" finished-at="2024-12-28T21:34:14 IST" duration-ms="9036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.ManageUserTestClass -->
+      <class name="testClasses.HomePageTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@1b1cfb87]" started-at="2024-12-28T21:35:50 IST" name="beforeMethod" finished-at="2024-12-28T21:35:59 IST" duration-ms="8919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAllTilesDisplayedOnHomePage()[pri:0, instance:testClasses.HomePageTestClass@1b1cfb87]" started-at="2024-12-28T21:35:59 IST" name="verifyAllTilesDisplayedOnHomePage" finished-at="2024-12-28T21:36:05 IST" duration-ms="6206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllTilesDisplayedOnHomePage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@1b1cfb87]" started-at="2024-12-28T21:36:05 IST" name="afterMethod" finished-at="2024-12-28T21:36:12 IST" duration-ms="7121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@1b1cfb87]" started-at="2024-12-28T21:36:12 IST" name="beforeMethod" finished-at="2024-12-28T21:36:21 IST" duration-ms="8873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySuccessfulSignOut()[pri:1, instance:testClasses.HomePageTestClass@1b1cfb87]" started-at="2024-12-28T21:36:21 IST" name="verifySuccessfulSignOut" finished-at="2024-12-28T21:36:25 IST" duration-ms="3486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulSignOut -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@1b1cfb87]" started-at="2024-12-28T21:36:25 IST" name="afterMethod" finished-at="2024-12-28T21:36:32 IST" duration-ms="7168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.HomePageTestClass@1b1cfb87]" started-at="2024-12-28T21:36:32 IST" name="beforeMethod" finished-at="2024-12-28T21:36:40 IST" duration-ms="7971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator()[pri:2, instance:testClasses.HomePageTestClass@1b1cfb87]" started-at="2024-12-28T21:36:40 IST" name="verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator" finished-at="2024-12-28T21:36:59 IST" duration-ms="19616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheTooltip_Calculator_isShowingWhileHoveringTheMouseOnCalculator -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.HomePageTestClass@1b1cfb87]" started-at="2024-12-28T21:36:59 IST" name="afterMethod" finished-at="2024-12-28T21:37:07 IST" duration-ms="7200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.HomePageTestClass -->
+      <class name="testClasses.LoginPageTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:37:07 IST" name="beforeMethod" finished-at="2024-12-28T21:37:17 IST" duration-ms="10499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheExactURL_OpensWhileHittingTheBaseURL()[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:37:17 IST" name="verifyTheExactURL_OpensWhileHittingTheBaseURL" finished-at="2024-12-28T21:37:17 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheExactURL_OpensWhileHittingTheBaseURL -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:37:17 IST" name="afterMethod" finished-at="2024-12-28T21:37:28 IST" duration-ms="10669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:37:28 IST" name="beforeMethod" finished-at="2024-12-28T21:37:34 IST" duration-ms="6332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheRememberMeCheckboxIsSelectedByDefault()[pri:1, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:37:34 IST" name="verifyTheRememberMeCheckboxIsSelectedByDefault" finished-at="2024-12-28T21:37:34 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheRememberMeCheckboxIsSelectedByDefault -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:37:34 IST" name="afterMethod" finished-at="2024-12-28T21:37:46 IST" duration-ms="11673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:37:46 IST" name="beforeMethod" finished-at="2024-12-28T21:37:58 IST" duration-ms="12276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword()[pri:2, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:37:58 IST" name="verifyResetPasswordPageComingWhileChickingOnForgotYourPassword" finished-at="2024-12-28T21:37:59 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetPasswordPageComingWhileChickingOnForgotYourPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:37:59 IST" name="afterMethod" finished-at="2024-12-28T21:38:08 IST" duration-ms="9107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:38:08 IST" name="beforeMethod" finished-at="2024-12-28T21:38:15 IST" duration-ms="6484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:38:15 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-28T21:38:16 IST" duration-ms="1084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:38:16 IST" name="afterMethod" finished-at="2024-12-28T21:38:25 IST" duration-ms="9247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:38:25 IST" name="beforeMethod" finished-at="2024-12-28T21:38:31 IST" duration-ms="6102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:38:31 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-28T21:38:32 IST" duration-ms="1071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:38:32 IST" name="afterMethod" finished-at="2024-12-28T21:38:41 IST" duration-ms="8821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:38:41 IST" name="beforeMethod" finished-at="2024-12-28T21:38:47 IST" duration-ms="6389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUnsuccessfulLoginOfTheSite(java.lang.String,java.lang.String)[pri:3, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:38:47 IST" name="verifyUnsuccessfulLoginOfTheSite" data-provider="UnsuccessfulLogin" finished-at="2024-12-28T21:38:49 IST" duration-ms="1844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[124]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLoginOfTheSite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:38:49 IST" name="afterMethod" finished-at="2024-12-28T21:38:57 IST" duration-ms="7816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:38:57 IST" name="beforeMethod" finished-at="2024-12-28T21:39:04 IST" duration-ms="6400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySuccessfullLogin()[pri:4, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:39:04 IST" name="verifySuccessfullLogin" finished-at="2024-12-28T21:39:11 IST" duration-ms="7160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.LoginPageTestClass@821330f]" started-at="2024-12-28T21:39:11 IST" name="afterMethod" finished-at="2024-12-28T21:39:18 IST" duration-ms="7128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.LoginPageTestClass -->
+      <class name="testClasses.ManageProductTestClass">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@34bde49d]" started-at="2024-12-28T21:34:14 IST" name="beforeMethod" finished-at="2024-12-28T21:34:22 IST" duration-ms="7896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyProductsPageIsOpenWhileClickingOnListProducts()[pri:0, instance:testClasses.ManageProductTestClass@34bde49d]" started-at="2024-12-28T21:34:22 IST" name="verifyProductsPageIsOpenWhileClickingOnListProducts" finished-at="2024-12-28T21:34:27 IST" duration-ms="5039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsPageIsOpenWhileClickingOnListProducts -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@34bde49d]" started-at="2024-12-28T21:34:27 IST" name="afterMethod" finished-at="2024-12-28T21:34:34 IST" duration-ms="7143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@34bde49d]" started-at="2024-12-28T21:34:34 IST" name="beforeMethod" finished-at="2024-12-28T21:34:49 IST" duration-ms="14174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToCreateA_newProduct()[pri:1, instance:testClasses.ManageProductTestClass@34bde49d]" started-at="2024-12-28T21:34:49 IST" name="verifyToCreateA_newProduct" finished-at="2024-12-28T21:35:11 IST" duration-ms="22132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToCreateA_newProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@34bde49d]" started-at="2024-12-28T21:35:11 IST" name="afterMethod" finished-at="2024-12-28T21:35:18 IST" duration-ms="7748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testClasses.ManageProductTestClass@34bde49d]" started-at="2024-12-28T21:35:18 IST" name="beforeMethod" finished-at="2024-12-28T21:35:31 IST" duration-ms="12227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToDeleteAddedProduct()[pri:2, instance:testClasses.ManageProductTestClass@34bde49d]" started-at="2024-12-28T21:35:31 IST" name="verifyToDeleteAddedProduct" finished-at="2024-12-28T21:35:43 IST" duration-ms="12290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToDeleteAddedProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageProductTestClass@34bde49d]" started-at="2024-12-28T21:35:43 IST" name="afterMethod" finished-at="2024-12-28T21:35:50 IST" duration-ms="7157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.ManageProductTestClass -->
+    </test> <!-- edgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
