@@ -80,7 +80,7 @@
 				<version>3.0.0-M7</version>
 				<configuration>
 					<suiteXmlFiles>
-						<file>crossbrowser.xml</file>
+						<file>trialSuite.xml</file>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
